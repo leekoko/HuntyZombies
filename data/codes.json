@@ -1,0 +1,156 @@
+{
+  "activeCodes": [
+    {
+      "code": "150KLIKES",
+      "reward": "15,000 Coins",
+      "addedDate": "2025-08-23"
+    },
+    {
+      "code": "120KIN",
+      "reward": "30,000 Coins",
+      "addedDate": "2025-08-23"
+    },
+    {
+      "code": "Scythecool",
+      "reward": "10 Spins",
+      "addedDate": "2025-08-23"
+    },
+    {
+      "code": "Hzdelay",
+      "reward": "50,000 Coins",
+      "addedDate": "2025-08-23"
+    },
+    {
+      "code": "Hugecode",
+      "reward": "150,000 Coins",
+      "addedDate": "2025-08-23"
+    },
+    {
+      "code": "WDEV1",
+      "reward": "5 Lucky Weapon Spins",
+      "addedDate": "2025-08-23"
+    },
+    {
+      "code": "WDEV2",
+      "reward": "5 Traits",
+      "addedDate": "2025-08-23"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "100KLIKES",
+      "reward": "5 Traits",
+      "addedDate": "2025-08-20"
+    },
+    {
+      "code": "70KLIKES",
+      "reward": "5 Lucky Weapon Spins",
+      "addedDate": "2025-08-15"
+    },
+    {
+      "code": "60KLIKES",
+      "reward": "30,000 Coins",
+      "addedDate": "2025-08-15"
+    },
+    {
+      "code": "20KIN",
+      "reward": "20,000 Coins",
+      "addedDate": "2025-08-10"
+    },
+    {
+      "code": "sorryfordelay",
+      "reward": "15 Spins",
+      "addedDate": "2025-08-10"
+    },
+    {
+      "code": "50KLIKES",
+      "reward": "55,500 Cash",
+      "addedDate": "2025-08-05"
+    },
+    {
+      "code": "100KMEMBERS",
+      "reward": "100,000 Cash",
+      "addedDate": "2025-08-01"
+    },
+    {
+      "code": "40KLIKES",
+      "reward": "5 Trait Rerolls",
+      "addedDate": "2025-07-25"
+    },
+    {
+      "code": "30KLIKES",
+      "reward": "10 Lucky Perk Spins",
+      "addedDate": "2025-07-20"
+    },
+    {
+      "code": "20KLIKES",
+      "reward": "5 Rerolls",
+      "addedDate": "2025-07-15"
+    },
+    {
+      "code": "10KLIKES",
+      "reward": "10 Lucky Weapon Spins",
+      "addedDate": "2025-07-10"
+    },
+    {
+      "code": "Release2",
+      "reward": "20,000 Cash",
+      "addedDate": "2025-07-05"
+    },
+    {
+      "code": "Release",
+      "reward": "5 Lucky Weapon Spins",
+      "addedDate": "2025-07-01"
+    },
+    {
+      "code": "10KEVENT",
+      "reward": "30,000 Cash",
+      "addedDate": "2025-06-25"
+    },
+    {
+      "code": "Sorryhaha",
+      "reward": "5 Lucky Perk Spins",
+      "addedDate": "2025-06-20"
+    },
+    {
+      "code": "10KFOL1",
+      "reward": "Special Rewards",
+      "addedDate": "2025-06-15"
+    },
+    {
+      "code": "10KFOL2",
+      "reward": "Special Rewards",
+      "addedDate": "2025-06-15"
+    },
+    {
+      "code": "10KFOL3",
+      "reward": "Special Rewards",
+      "addedDate": "2025-06-15"
+    },
+    {
+      "code": "10KFOL4",
+      "reward": "Special Rewards",
+      "addedDate": "2025-06-15"
+    },
+    {
+      "code": "ISCODEWORKING",
+      "reward": "Special Rewards",
+      "addedDate": "2025-06-10"
+    },
+    {
+      "code": "LOVEYOU",
+      "reward": "Special Rewards",
+      "addedDate": "2025-06-05"
+    },
+    {
+      "code": "50LS",
+      "reward": "Special Rewards",
+      "addedDate": "2025-06-01"
+    },
+    {
+      "code": "HAHAHA",
+      "reward": "Special Rewards",
+      "addedDate": "2025-05-25"
+    }
+  ]
+}

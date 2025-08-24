@@ -1,0 +1,106 @@
+:root {
+  /* Cinematic gaming-inspired color palette */
+  --background: 25 8% 6%; /* Deep dark background */
+  --foreground: 35 25% 92%; /* Warm light text */
+  --card: 24 12% 8%; /* Semi-transparent dark card */
+  --card-foreground: 35 25% 92%;
+  --popover: 22 15% 10%; /* Dark popover */
+  --popover-foreground: 35 25% 92%;
+  --primary: 25 100% 60%; /* Warm amber primary */
+  --primary-foreground: 25 8% 6%; /* Dark text on amber */
+  --secondary: 15 85% 55%; /* Rich orange accent */
+  --secondary-foreground: 25 8% 6%; /* Dark text on orange */
+  --muted: 20 15% 12%; /* Dark muted areas */
+  --muted-foreground: 30 20% 65%; /* Muted warm text */
+  --accent: 20 25% 15%; /* Dark accent areas */
+  --accent-foreground: 30 30% 85%; /* Light accent text */
+  --destructive: 0 75% 58%; /* Cinematic red */
+  --destructive-foreground: 35 25% 92%; /* Light error text */
+  --border: 25 20% 18%; /* Subtle warm borders */
+  --input: 22 18% 10%; /* Dark input backgrounds */
+  --ring: 25 100% 60%; /* Amber focus ring */
+  --chart-1: 25 100% 60%;
+  --chart-2: 15 85% 55%;
+  --chart-3: 120 50% 45%;
+  --chart-4: 45 90% 60%;
+  --chart-5: 280 45% 65%;
+  --radius: 12px; /* Modern border radius */
+  
+  /* Gaming atmosphere colors */
+  --glow-primary: 25 100% 60%; /* Amber glow */
+  --glow-secondary: 15 85% 55%; /* Orange glow */
+  --shadow-dark: 25 15% 3%; /* Deep shadows */
+  --overlay: rgba(15, 12, 10, 0.8); /* Semi-transparent overlay */
+  
+  /* Premium typography and spacing */
+  --font-sans: 'Inter Variable', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Inter Variable', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.7;
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.025em;
+}
+
+.dark {
+  /* Enhanced cinematic dark theme */
+  --background: 25 10% 3%; /* Even deeper dark background */
+  --foreground: 35 30% 95%; /* Bright warm text */
+  --card: 24 15% 5%; /* Deeper dark cards */
+  --card-foreground: 35 30% 95%;
+  --popover: 22 18% 7%; /* Deeper dark popover */
+  --popover-foreground: 35 30% 95%;
+  --primary: 25 100% 65%; /* Brighter amber for dark theme */
+  --primary-foreground: 25 10% 3%; /* Dark text on bright amber */
+  --secondary: 15 90% 60%; /* Brighter orange accent */
+  --secondary-foreground: 25 10% 3%; /* Dark text on bright orange */
+  --muted: 20 18% 8%; /* Deeper muted areas */
+  --muted-foreground: 30 25% 70%; /* Brighter muted text */
+  --accent: 20 30% 10%; /* Deeper accent areas */
+  --accent-foreground: 30 35% 90%; /* Brighter accent text */
+  --destructive: 0 80% 65%; /* Brighter cinematic red */
+  --destructive-foreground: 35 30% 95%; /* Bright error text */
+  --border: 25 25% 12%; /* More visible warm borders */
+  --input: 22 20% 7%; /* Deeper dark input backgrounds */
+  --ring: 25 100% 65%; /* Brighter amber focus ring */
+  --chart-1: 25 100% 65%;
+  --chart-2: 15 90% 60%;
+  --chart-3: 120 55% 50%;
+  --chart-4: 45 95% 65%;
+  --chart-5: 280 50% 70%;
+  --radius: 12px;
+}
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-chart-1: hsl(var(--chart-1));
+  --color-chart-2: hsl(var(--chart-2));
+  --color-chart-3: hsl(var(--chart-3));
+  --color-chart-4: hsl(var(--chart-4));
+  --color-chart-5: hsl(var(--chart-5));
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}

@@ -1,0 +1,238 @@
+@import "tailwindcss";
+@import "./theme.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@plugin "tailwindcss-animate";
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-6xl lg:text-7xl;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+}
+
+/* Premium container with luxurious spacing */
+.container {
+  @apply mx-auto px-6 md:px-12 lg:px-24;
+  max-width: 1400px;
+}
+
+/* Hero container with extra breathing room */
+.hero-container {
+  @apply mx-auto px-6 md:px-12 lg:px-32;
+  max-width: 1600px;
+}
+
+/* Premium section spacing */
+.section-padding {
+  @apply py-20 md:py-32 lg:py-40;
+}
+
+.section-padding-sm {
+  @apply py-16 md:py-24 lg:py-32;
+}
+
+/* Smooth transitions for all interactive elements */
+* {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Premium animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.animate-slideInFromLeft {
+  animation: slideInFromLeft 0.6s ease-out forwards;
+}
+
+/* Staggered animation delays */
+.animate-delay-100 { animation-delay: 0.1s; }
+.animate-delay-200 { animation-delay: 0.2s; }
+.animate-delay-300 { animation-delay: 0.3s; }
+.animate-delay-400 { animation-delay: 0.4s; }
+.animate-delay-500 { animation-delay: 0.5s; }
+
+/* Premium button styles */
+.btn-primary {
+  @apply bg-primary text-primary-foreground px-8 py-4 rounded-xl font-medium;
+  @apply hover:bg-primary/90 hover:scale-[1.02] active:scale-[0.98];
+  @apply transition-all duration-200 ease-out;
+  @apply shadow-lg hover:shadow-xl;
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary)) 100%);
+}
+
+.btn-primary.btn-sm {
+  @apply px-6 py-2 text-sm;
+}
+
+.btn-secondary {
+  @apply bg-secondary/10 text-secondary border border-secondary/20 px-8 py-4 rounded-xl font-medium;
+  @apply hover:bg-secondary/20 hover:border-secondary/30 hover:scale-[1.02] active:scale-[0.98];
+  @apply transition-all duration-200 ease-out;
+}
+
+/* Premium card styles - cinematic enhancement */
+.card-premium {
+  @apply bg-card border border-border rounded-2xl p-8;
+  @apply hover:shadow-xl hover:border-border/60;
+  @apply transition-all duration-300 ease-out;
+  background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(var(--muted)) 2%, hsl(var(--card)) 100%);
+  box-shadow: 
+    0 4px 20px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 185, 71, 0.1);
+}
+
+.card-premium:hover {
+  box-shadow: 
+    0 8px 40px rgba(0, 0, 0, 0.6),
+    0 0 20px rgba(255, 185, 71, 0.15),
+    inset 0 1px 0 rgba(255, 185, 71, 0.2);
+}
+
+/* Cinematic glow effects */
+.glow-primary {
+  box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+}
+
+.glow-secondary {
+  box-shadow: 0 0 15px hsl(var(--secondary) / 0.25);
+}
+
+/* Enhanced code card with cinematic styling */
+.code-card {
+  position: relative;
+  background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(var(--muted)) 2%, hsl(var(--card)) 100%);
+  box-shadow: 
+    0 4px 20px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 185, 71, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.code-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 
+    0 12px 40px rgba(0, 0, 0, 0.6),
+    0 0 25px rgba(255, 185, 71, 0.2),
+    inset 0 1px 0 rgba(255, 185, 71, 0.15);
+}
+
+/* Enhanced hover optimizations with smooth transitions */
+.bg-primary:hover {
+  @apply bg-primary/90;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px hsl(var(--primary) / 0.3);
+}
+
+.bg-secondary:hover {
+  @apply bg-secondary/90;
+  transform: translateY(-1px);
+}
+
+.border-secondary:hover {
+  @apply border-secondary/80 bg-secondary/8;
+  transform: translateY(-1px);
+}
+
+/* Smooth focus states */
+.focus-ring {
+  @apply focus:outline-none focus:ring-2 focus:ring-primary/50 focus:ring-offset-2;
+}
+
+/* Premium glass effect - cinematic style */
+.glass-effect {
+  background: rgba(15, 12, 10, 0.8);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 185, 71, 0.2);
+}
+
+/* Sticky navigation - cinematic style */
+.sticky-nav {
+  @apply sticky top-0 z-50;
+  background: rgba(15, 12, 10, 0.95);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid hsl(var(--border));
+  transition: all 0.3s ease-out;
+}
+
+/* Premium text styles */
+.text-gradient {
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Luxurious spacing utilities */
+.space-luxury > * + * {
+  margin-top: clamp(2rem, 5vw, 4rem);
+}
