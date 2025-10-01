@@ -1,6 +1,38 @@
 {
   "activeCodes": [
     {
+      "code": "HBDPFRESH",
+      "reward": "500,000 Coins",
+      "addedDate": "2025-10-01"
+    },
+    {
+      "code": "Raidmodehaha",
+      "reward": "150,000 Coins",
+      "addedDate": "2025-10-01"
+    },
+    {
+      "code": "WeaponMastery",
+      "reward": "10 Lucky Perk Spins",
+      "addedDate": "2025-10-01"
+    },
+    {
+      "code": "Shoes",
+      "reward": "10 Lucky Weapon Spins",
+      "addedDate": "2025-10-01"
+    },
+    {
+      "code": "Bow",
+      "reward": "10 Traits",
+      "addedDate": "2025-10-01"
+    },
+    {
+      "code": "RAIDTICKET5",
+      "reward": "5 Raid Tickets",
+      "addedDate": "2025-10-01"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "400KLIKES",
       "reward": "199,999 Coins",
       "addedDate": "2025-09-01"
@@ -44,9 +76,7 @@
       "code": "200KLIKES",
       "reward": "200,000 Coins",
       "addedDate": "2025-09-01"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
       "code": "150KLIKES",
       "reward": "15,000 Coins",
