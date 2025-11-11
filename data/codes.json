@@ -1,6 +1,48 @@
 {
   "activeCodes": [
     {
+      "code": "ChainsawWP",
+      "reward": "10 Lucky Weapon Spins",
+      "addedDate": "2025-11-11"
+    },
+    {
+      "code": "REBIRTH!",
+      "reward": "200,000 Coins",
+      "addedDate": "2025-11-11"
+    },
+    {
+      "code": "DIVINEPET",
+      "reward": "200,000 Coins",
+      "addedDate": "2025-11-11"
+    },
+    {
+      "code": "LOYKRATHONGDAY",
+      "reward": "15 Traits",
+      "addedDate": "2025-11-11"
+    },
+    {
+      "code": "REDUCEDMGPERK",
+      "reward": "10 Lucky Perk Spins",
+      "addedDate": "2025-11-11"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "Reaper",
+      "reward": "Lucky Spins",
+      "addedDate": "2025-11-11"
+    },
+    {
+      "code": "ScytheRP",
+      "reward": "Lucky Spins",
+      "addedDate": "2025-11-11"
+    },
+    {
+      "code": "RIP67",
+      "reward": "Lucky Spins",
+      "addedDate": "2025-11-11"
+    },
+    {
       "code": "HBDPFRESH",
       "reward": "500,000 Coins",
       "addedDate": "2025-10-01"
@@ -29,9 +71,7 @@
       "code": "RAIDTICKET5",
       "reward": "5 Raid Tickets",
       "addedDate": "2025-10-01"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
       "code": "400KLIKES",
       "reward": "199,999 Coins",

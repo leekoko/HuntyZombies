@@ -47,11 +47,19 @@ This modern web application is built with cutting-edge technologies:
 ## Features
 
 ### Core Features
+- **🤖 Automated Updates**: Automatic code scraping from multiple sources every 6 hours
 - **One-Click Copy**: Copy codes instantly with visual feedback
-- **Mobile-First Design**: Perfect experience on all devices  
+- **Mobile-First Design**: Perfect experience on all devices
 - **Dark Gaming Theme**: Cinematic UI with amber/orange accents
 - **Fast Loading**: Optimized images and server-side rendering
 - **SEO Optimized**: Enhanced discoverability for Roblox gamers
+
+### Automation System
+- **Multi-Source Scraping**: Fetches codes from Beebom, Pro Game Guides, Pocket Tactics
+- **GitHub Actions Integration**: Runs every 6 hours automatically
+- **Smart Detection**: Automatically identifies new and expired codes
+- **Manual Trigger**: Can be run manually with `npm run update-codes`
+- **Dry-Run Mode**: Preview changes before committing
 
 ### User Experience
 - **Active/Expired Status**: Clear visual indicators for code validity
@@ -60,6 +68,12 @@ This modern web application is built with cutting-edge technologies:
 - **Historical Data**: Track of previously expired codes
 
 ## Quick Start
+
+### For Users
+
+Visit **[huntyzombies.codes](https://huntyzombies.codes/)** to get the latest codes instantly!
+
+### For Developers
 
 ```bash
 # Clone the repository
@@ -72,8 +86,23 @@ npm install
 # Start development server
 npm run dev
 
-# Open http://localhost:3000 in your browser
+# Open http://localhost:3001 in your browser
 ```
+
+### Automation Commands
+
+```bash
+# Update codes automatically
+npm run update-codes
+
+# Preview changes without saving
+npm run update-codes:dry-run
+
+# Detailed logging
+npm run update-codes:verbose
+```
+
+**📖 Full documentation:** See [MAINTENANCE.md](./MAINTENANCE.md) for complete setup and maintenance guide.
 
 ## Project Structure
 
@@ -91,6 +120,12 @@ hunty-zombies-codes/
 │   └── Footer.tsx     # Site footer
 ├── data/
 │   └── codes.json     # Game codes database
+├── scripts/           # 🤖 Automation scripts
+│   ├── update-codes.ts # Automated code scraper
+│   └── README.md      # Script documentation
+├── .github/
+│   └── workflows/
+│       └── update-codes.yml # GitHub Actions automation
 └── public/
     └── img/           # Game screenshots & assets
 ```
@@ -104,10 +139,16 @@ hunty-zombies-codes/
 
 ## Why Choose Our Site?
 
-### Most Comprehensive Database
-- **24/7 Monitoring**: We check for new codes around the clock
+### Automated & Always Fresh
+- **🤖 Every 6 Hours**: GitHub Actions automatically checks for new codes
+- **Multi-Source**: Scrapes 3+ reliable gaming news websites
+- **Smart Detection**: Automatically moves expired codes to archive
 - **Verified Codes**: Every code is tested before publishing
+
+### Most Comprehensive Database
+- **24/7 Monitoring**: Automation runs around the clock
 - **Historical Tracking**: Complete archive of all past codes
+- **Instant Updates**: New codes appear within hours of release
 
 ### Lightning Fast Performance
 - **Sub-3s Load Times**: Optimized for mobile networks
@@ -160,6 +201,11 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 ## Keywords
 
 `roblox codes` `hunty zombies codes` `free roblox codes` `hunty zombies rewards` `roblox game codes` `free coins` `lucky spins` `traits` `weapon spins` `gaming codes` `roblox freebies`
+
+## 更新抓取脚本
+npm run update-codes:dry-run
+npm run update-codes
+
 
 ---
 
