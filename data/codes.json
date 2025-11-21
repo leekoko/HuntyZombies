@@ -1,6 +1,38 @@
 {
   "activeCodes": [
     {
+      "code": "SHAMMER",
+      "reward": "10 Lucky Weapon Spins",
+      "addedDate": "2025-11-21"
+    },
+    {
+      "code": "NewZombie1",
+      "reward": "10 Traits",
+      "addedDate": "2025-11-21"
+    },
+    {
+      "code": "NewZombie2",
+      "reward": "10 Traits",
+      "addedDate": "2025-11-21"
+    },
+    {
+      "code": "NEWPAYLOAD",
+      "reward": "200,000 Coins",
+      "addedDate": "2025-11-21"
+    },
+    {
+      "code": "TRYNEWGAMEMODE",
+      "reward": "10 Lucky Perk Spins",
+      "addedDate": "2025-11-21"
+    },
+    {
+      "code": "BATTLEPASSRESET",
+      "reward": "100,000 Coins",
+      "addedDate": "2025-11-21"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "ChainsawWP",
       "reward": "10 Lucky Weapon Spins",
       "addedDate": "2025-11-11"
@@ -24,9 +56,7 @@
       "code": "REDUCEDMGPERK",
       "reward": "10 Lucky Perk Spins",
       "addedDate": "2025-11-11"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
       "code": "Reaper",
       "reward": "15 Lucky Weapon Spins",
