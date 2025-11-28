@@ -1,6 +1,33 @@
 {
   "activeCodes": [
     {
+      "code": "Wizzard",
+      "reward": "10 Lucky Weapon Spins",
+      "addedDate": "2025-11-22"
+    },
+    {
+      "code": "Petupgrade",
+      "reward": "10 Traits",
+      "addedDate": "2025-11-22"
+    },
+    {
+      "code": "NewBuild",
+      "reward": "10 Traits",
+      "addedDate": "2025-11-22"
+    },
+    {
+      "code": "SupanewDivine",
+      "reward": "200,000 Coins",
+      "addedDate": "2025-11-22"
+    },
+    {
+      "code": "JKR",
+      "reward": "10 Lucky Perk Spins",
+      "addedDate": "2025-11-22"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "SHAMMER",
       "reward": "10 Lucky Weapon Spins",
       "addedDate": "2025-11-21"
@@ -29,9 +56,7 @@
       "code": "BATTLEPASSRESET",
       "reward": "100,000 Coins",
       "addedDate": "2025-11-21"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
       "code": "ChainsawWP",
       "reward": "10 Lucky Weapon Spins",
