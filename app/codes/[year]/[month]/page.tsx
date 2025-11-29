@@ -9,11 +9,11 @@ import FAQ from '@/components/FAQ';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
 
-type CodesPageProps = {
-  params: {
+type Props = {
+  params: Promise<{
     year: string;
     month: string;
-  };
+  }>;
 };
 
 // Generate static pages for each month in the data
@@ -25,8 +25,8 @@ export async function generateStaticParams() {
 }
 
 // Generate dynamic metadata for each page
-export async function generateMetadata({ params }: CodesPageProps) {
-  const { year, month } = params;
+export async function generateMetadata({ params }: Props) {
+  const { year, month } = await params;
   const data = codesData.find((d) => d.year === year && d.month === month);
 
   if (!data) {
@@ -45,8 +45,8 @@ export async function generateMetadata({ params }: CodesPageProps) {
   };
 }
 
-export default function CodesPage({ params }: CodesPageProps) {
-  const { year, month } = params;
+export default async function CodesPage({ params }: Props) {
+  const { year, month } = await params;
   const data = codesData.find((d) => d.year === year && d.month === month);
 
   if (!data) {
