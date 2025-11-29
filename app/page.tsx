@@ -8,8 +8,11 @@ import ExpiredCodesTable from '@/components/ExpiredCodesTable';
 import FAQ from '@/components/FAQ';
 import Footer from '@/components/Footer';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
+  const latestCodes = codesData[0];
+  const archiveCodes = codesData.slice(1);
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <Header />
@@ -58,7 +61,7 @@ export default function Home() {
           {/* Stats Section */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 animate-fadeInUp animate-delay-500">
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">{codesData.activeCodes.length}</div>
+              <div className="text-4xl font-bold text-primary mb-2">{latestCodes.activeCodes.length}</div>
               <div className="text-muted-foreground">Active Codes</div>
             </div>
             <div className="text-center">
@@ -90,7 +93,7 @@ export default function Home() {
             </div>
             
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-              {codesData.activeCodes.map((item, index) => (
+              {latestCodes.activeCodes.map((item, index) => (
                 <div 
                   key={item.code} 
                   className="animate-fadeInUp"
@@ -253,7 +256,7 @@ export default function Home() {
             </div>
             
             <div className="card-premium">
-              <ExpiredCodesTable codes={codesData.expiredCodes} />
+              <ExpiredCodesTable codes={latestCodes.expiredCodes} />
             </div>
           </div>
         </section>
@@ -264,6 +267,36 @@ export default function Home() {
             <FAQ />
           </div>
         </section>
+
+        {/* Archive Section */}
+        {archiveCodes.length > 0 && (
+          <section className="section-padding-sm bg-muted/20" id="archive">
+            <div className="container">
+              <div className="text-center mb-16">
+                <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-500/20 border border-blue-500/30 mb-6">
+                  <Clock className="h-4 w-4 text-blue-400 mr-2" />
+                  <span className="text-sm font-medium text-blue-300">Past Codes</span>
+                </div>
+                <h2 className="mb-6">Hunty Zombies Codes Archive</h2>
+                <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+                  Looking for codes from a previous month? Browse our archive to find codes from past updates.
+                </p>
+              </div>
+              
+              <div className="flex flex-wrap gap-4 justify-center">
+                {archiveCodes.map((archive) => (
+                  <Link 
+                    key={`${archive.year}-${archive.month}`}
+                    href={`/codes/${archive.year}/${archive.month}`}
+                    className="btn-secondary"
+                  >
+                    {archive.month.charAt(0).toUpperCase() + archive.month.slice(1)} {archive.year} Codes
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
       </main>
 
       <Footer />
