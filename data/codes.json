@@ -1,6 +1,63 @@
 {
   "activeCodes": [
     {
+      "code": "Jester",
+      "reward": "10 Lucky Weapon Spins",
+      "addedDate": "2025-12-03"
+    },
+    {
+      "code": "TheClown1",
+      "reward": "10 Traits",
+      "addedDate": "2025-12-03"
+    },
+    {
+      "code": "NewClownboss",
+      "reward": "10 Traits",
+      "addedDate": "2025-12-03"
+    },
+    {
+      "code": "HAHAHAHA",
+      "reward": "200,000 Coins",
+      "addedDate": "2025-12-03"
+    },
+    {
+      "code": "JKR5",
+      "reward": "10 Lucky Perk Spins",
+      "addedDate": "2025-12-03"
+    },
+    {
+      "code": "700KLIKES",
+      "reward": "700,000 Coins",
+      "addedDate": "2025-12-03"
+    },
+    {
+      "code": "BLINDFOLD",
+      "reward": "5 Lucky Weapon Spins",
+      "addedDate": "2025-12-03"
+    },
+    {
+      "code": "OPCODE1",
+      "reward": "25 Lucky Weapon Spins",
+      "addedDate": "2025-12-03"
+    },
+    {
+      "code": "OPCODE2",
+      "reward": "25 Lucky Perk Spins",
+      "addedDate": "2025-12-03"
+    },
+    {
+      "code": "OPCODE3",
+      "reward": "25 Trait Rerolls",
+      "addedDate": "2025-12-03"
+    },
+    {
+      "code": "OPCODE4",
+      "reward": "300 Payload",
+      "addedDate": "2025-12-03"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "Wizzard",
       "reward": "10 Lucky Weapon Spins",
       "addedDate": "2025-11-22"
@@ -24,9 +81,7 @@
       "code": "JKR",
       "reward": "10 Lucky Perk Spins",
       "addedDate": "2025-11-22"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
       "code": "SHAMMER",
       "reward": "10 Lucky Weapon Spins",
