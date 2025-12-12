@@ -1,6 +1,68 @@
 {
   "activeCodes": [
     {
+      "code": "SORRYFORDELAY",
+      "reward": "20 Trait Rerolls",
+      "addedDate": "2025-12-12"
+    },
+    {
+      "code": "DELAYAGAINSORRY",
+      "reward": "1,500 Payload Coins",
+      "addedDate": "2025-12-12"
+    },
+    {
+      "code": "SORRYFORDELAY2",
+      "reward": "50 Traits",
+      "addedDate": "2025-12-12"
+    },
+    {
+      "code": "YOUGUYSROCK",
+      "reward": "200 Pet Coins",
+      "addedDate": "2025-12-12"
+    },
+    {
+      "code": "250KTHANKS",
+      "reward": "Special Rewards",
+      "addedDate": "2025-12-12"
+    },
+    {
+      "code": "200KTHANKS",
+      "reward": "35 Lucky Weapon Spins",
+      "addedDate": "2025-12-12"
+    },
+    {
+      "code": "150KTHANKS",
+      "reward": "80 Trait Spins",
+      "addedDate": "2025-12-12"
+    },
+    {
+      "code": "100KTHANKS",
+      "reward": "750 Payload Coins",
+      "addedDate": "2025-12-12"
+    },
+    {
+      "code": "NEWUPDATE",
+      "reward": "30 Lucky Weapon Spins",
+      "addedDate": "2025-12-12"
+    },
+    {
+      "code": "SOMECASH",
+      "reward": "3,000,000 Coins",
+      "addedDate": "2025-12-12"
+    },
+    {
+      "code": "BLINDFOLD",
+      "reward": "5 Lucky Weapon Spins",
+      "addedDate": "2025-12-03"
+    },
+    {
+      "code": "700KLIKES",
+      "reward": "700,000 Coins",
+      "addedDate": "2025-12-03"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "Jester",
       "reward": "10 Lucky Weapon Spins",
       "addedDate": "2025-12-03"
@@ -26,16 +88,6 @@
       "addedDate": "2025-12-03"
     },
     {
-      "code": "700KLIKES",
-      "reward": "700,000 Coins",
-      "addedDate": "2025-12-03"
-    },
-    {
-      "code": "BLINDFOLD",
-      "reward": "5 Lucky Weapon Spins",
-      "addedDate": "2025-12-03"
-    },
-    {
       "code": "OPCODE1",
       "reward": "25 Lucky Weapon Spins",
       "addedDate": "2025-12-03"
@@ -54,9 +106,7 @@
       "code": "OPCODE4",
       "reward": "300 Payload",
       "addedDate": "2025-12-03"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
       "code": "Wizzard",
       "reward": "10 Lucky Weapon Spins",
