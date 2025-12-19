@@ -1,6 +1,26 @@
 {
   "activeCodes": [
     {
+      "code": "500KWOAHHH",
+      "reward": "200 Skill Points",
+      "addedDate": "2025-12-19"
+    },
+    {
+      "code": "SRYFORDELAY3",
+      "reward": "150 Trait Rolls",
+      "addedDate": "2025-12-19"
+    },
+    {
+      "code": "SRYFORDELAY2",
+      "reward": "200 Pet Coins",
+      "addedDate": "2025-12-19"
+    },
+    {
+      "code": "SRYFORDELAY1",
+      "reward": "1,500 Payload",
+      "addedDate": "2025-12-19"
+    },
+    {
       "code": "SORRYFORDELAY",
       "reward": "20 Trait Rerolls",
       "addedDate": "2025-12-12"
@@ -24,7 +44,9 @@
       "code": "250KTHANKS",
       "reward": "Special Rewards",
       "addedDate": "2025-12-12"
-    },
+    }
+  ],
+  "expiredCodes": [
     {
       "code": "200KTHANKS",
       "reward": "35 Lucky Weapon Spins",
@@ -59,9 +81,7 @@
       "code": "700KLIKES",
       "reward": "700,000 Coins",
       "addedDate": "2025-12-03"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
       "code": "Jester",
       "reward": "10 Lucky Weapon Spins",
