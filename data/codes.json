@@ -1,9 +1,34 @@
 {
   "activeCodes": [
     {
+      "code": "MERRY",
+      "reward": "100 Pet Coins",
+      "addedDate": "2025-12-25"
+    },
+    {
+      "code": "CHRISTMAS",
+      "reward": "1,000 Payload",
+      "addedDate": "2025-12-25"
+    },
+    {
       "code": "KRAMPUS",
-      "reward": "Special Rewards",
-      "addedDate": "2025-12-26"
+      "reward": "40 Lucky Weapon Spins",
+      "addedDate": "2025-12-21"
+    },
+    {
+      "code": "JINGLEBELLS",
+      "reward": "40 Trait Rerolls",
+      "addedDate": "2025-12-21"
+    },
+    {
+      "code": "DELAYCODE40",
+      "reward": "40 Lucky Weapon Spins",
+      "addedDate": "2025-12-21"
+    },
+    {
+      "code": "TRAITCODE40",
+      "reward": "40 Trait Rerolls",
+      "addedDate": "2025-12-21"
     },
     {
       "code": "500KWOAHHH",
