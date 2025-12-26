@@ -1,10 +1,10 @@
 import { Zap, ExternalLink, Calendar } from 'lucide-react';
 import Link from 'next/link';
-import codesData from '@/data/codes';
+import { codesArchive } from '@/data/codes';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-  const archiveCodes = codesData.slice(1);
+  const archiveCodes = codesArchive.slice(1);
   
   return (
     <footer className="bg-gradient-to-br from-muted/30 to-muted/50 border-t border-border">

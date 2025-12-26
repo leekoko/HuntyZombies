@@ -1,7 +1,7 @@
 'use client';
 
 import { CheckCircle2, Clock, Gift, Zap, Star, Trophy } from 'lucide-react';
-import codesData from '@/data/codes';
+import codesData, { codesArchive } from '@/data/codes';
 import Header from '@/components/Header';
 import CodeCard from '@/components/CodeCard';
 import ExpiredCodesTable from '@/components/ExpiredCodesTable';
@@ -11,8 +11,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Home() {
-  const latestCodes = codesData[0];
-  const archiveCodes = codesData.slice(1);
+  const { activeCodes, expiredCodes } = codesData;
+  const archiveCodes = codesArchive.slice(1);
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <Header />
@@ -61,7 +61,7 @@ export default function Home() {
           {/* Stats Section */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 animate-fadeInUp animate-delay-500">
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">{latestCodes.activeCodes.length}</div>
+              <div className="text-4xl font-bold text-primary mb-2">{activeCodes.length}</div>
               <div className="text-muted-foreground">Active Codes</div>
             </div>
             <div className="text-center">
@@ -93,7 +93,7 @@ export default function Home() {
             </div>
             
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-              {latestCodes.activeCodes.map((item, index) => (
+              {activeCodes.map((item, index) => (
                 <div 
                   key={item.code} 
                   className="animate-fadeInUp"
@@ -256,7 +256,7 @@ export default function Home() {
             </div>
             
             <div className="card-premium">
-              <ExpiredCodesTable codes={latestCodes.expiredCodes} />
+              <ExpiredCodesTable codes={expiredCodes} />
             </div>
           </div>
         </section>

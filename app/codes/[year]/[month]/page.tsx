@@ -1,7 +1,7 @@
 
 import { notFound } from 'next/navigation';
 import { CheckCircle2, Clock, Zap } from 'lucide-react';
-import codesData from '@/data/codes';
+import { codesArchive } from '@/data/codes';
 import Header from '@/components/Header';
 import CodeCard from '@/components/CodeCard';
 import ExpiredCodesTable from '@/components/ExpiredCodesTable';
@@ -18,7 +18,7 @@ type Props = {
 
 // Generate static pages for each month in the data
 export async function generateStaticParams() {
-  return codesData.map((data) => ({
+  return codesArchive.map((data) => ({
     year: data.year,
     month: data.month,
   }));
@@ -27,7 +27,7 @@ export async function generateStaticParams() {
 // Generate dynamic metadata for each page
 export async function generateMetadata({ params }: Props) {
   const { year, month } = await params;
-  const data = codesData.find((d) => d.year === year && d.month === month);
+  const data = codesArchive.find((d) => d.year === year && d.month === month);
 
   if (!data) {
     return {
@@ -47,14 +47,13 @@ export async function generateMetadata({ params }: Props) {
 
 export default async function CodesPage({ params }: Props) {
   const { year, month } = await params;
-  const data = codesData.find((d) => d.year === year && d.month === month);
+  const data = codesArchive.find((d) => d.year === year && d.month === month);
 
   if (!data) {
     notFound();
   }
 
   const capitalizedMonth = month.charAt(0).toUpperCase() + month.slice(1);
-  const isLatest = codesData[0].month === month && codesData[0].year === year;
 
   return (
     <div className="min-h-screen bg-background flex flex-col">
