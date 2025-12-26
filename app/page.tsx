@@ -1,7 +1,7 @@
 'use client';
 
 import { CheckCircle2, Clock, Gift, Zap, Star, Trophy } from 'lucide-react';
-import codesData from '@/data/codes.json';
+import codesData from '@/data/codes';
 import Header from '@/components/Header';
 import CodeCard from '@/components/CodeCard';
 import ExpiredCodesTable from '@/components/ExpiredCodesTable';

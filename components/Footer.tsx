@@ -1,6 +1,6 @@
 import { Zap, ExternalLink, Calendar } from 'lucide-react';
-import codesData from '@/data/codes.json';
 import Link from 'next/link';
+import codesData from '@/data/codes';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();

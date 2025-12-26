@@ -1,7 +1,7 @@
 
 import { notFound } from 'next/navigation';
 import { CheckCircle2, Clock, Zap } from 'lucide-react';
-import codesData from '@/data/codes.json';
+import codesData from '@/data/codes';
 import Header from '@/components/Header';
 import CodeCard from '@/components/CodeCard';
 import ExpiredCodesTable from '@/components/ExpiredCodesTable';

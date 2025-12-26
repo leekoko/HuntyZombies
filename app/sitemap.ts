@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import codesData from '@/data/codes.json';
+import codesData from '@/data/codes';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://huntyzombies.codes';
