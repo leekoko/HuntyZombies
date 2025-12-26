@@ -1,12 +1,15 @@
-import { Zap, ExternalLink } from 'lucide-react';
+import { Zap, ExternalLink, Calendar } from 'lucide-react';
+import codesData from '@/data/codes.json';
+import Link from 'next/link';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+  const archiveCodes = codesData.slice(1);
   
   return (
     <footer className="bg-gradient-to-br from-muted/30 to-muted/50 border-t border-border">
       <div className="container section-padding-sm">
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-5 md:grid-cols-2 gap-12">
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-6">
@@ -39,13 +42,13 @@ export default function Footer() {
             <h4 className="font-semibold mb-6 text-foreground">Quick Navigation</h4>
             <ul className="space-y-3">
               {[
-                { href: '#active-codes', label: 'Active Codes' },
-                { href: '#how-to-redeem', label: 'How to Redeem' },
-                { href: '#rewards-info', label: 'Rewards Guide' },
-                { href: '#expired-codes', label: 'Expired Codes' },
+                { href: '/#active-codes', label: 'Active Codes' },
+                { href: '/#how-to-redeem', label: 'How to Redeem' },
+                { href: '/#rewards-info', label: 'Rewards Guide' },
+                { href: '/#expired-codes', label: 'Expired Codes' },
               ].map((link) => (
                 <li key={link.href}>
-                  <a 
+                  <Link 
                     href={link.href} 
                     className="text-muted-foreground hover:text-primary transition-colors flex items-center group"
                   >
@@ -53,7 +56,27 @@ export default function Footer() {
                       <ExternalLink className="h-3 w-3" />
                     </span>
                     {link.label}
-                  </a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Monthly Archives */}
+          <div>
+            <h4 className="font-semibold mb-6 text-foreground">Monthly Archives</h4>
+            <ul className="space-y-3">
+              {archiveCodes.map((archive) => (
+                <li key={`${archive.year}-${archive.month}`}>
+                  <Link
+                    href={`/codes/${archive.year}/${archive.month}`}
+                    className="text-muted-foreground hover:text-primary transition-colors flex items-center group"
+                  >
+                    <span className="mr-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                      <Calendar className="h-3 w-3" />
+                    </span>
+                    {archive.month.charAt(0).toUpperCase() + archive.month.slice(1)} {archive.year}
+                  </Link>
                 </li>
               ))}
             </ul>

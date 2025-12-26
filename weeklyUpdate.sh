@@ -12,6 +12,7 @@ claude -p "帮我执行 hunty-zombies-maintainer skill 更新一下code" \
   --allowed-tools Bash,Edit,Read,WebSearch,WebFetch,Write
 
 # 提交代码
+git pull
 git add .
 git commit -m "Weekly auto update by Claude"
 git push origin main
