@@ -11,6 +11,61 @@
       "addedDate": "2025-12-25"
     },
     {
+      "code": "XMAS2025HZ",
+      "reward": "150 Lucky Spins",
+      "addedDate": "2025-12-25"
+    },
+    {
+      "code": "SANTAOP",
+      "reward": "150 Traits",
+      "addedDate": "2025-12-25"
+    },
+    {
+      "code": "HZ",
+      "reward": "50 Skill Tree",
+      "addedDate": "2025-12-25"
+    },
+    {
+      "code": "WEAREBACK",
+      "reward": "60 Lucky Weapon Spins",
+      "addedDate": "2025-12-26"
+    },
+    {
+      "code": "WEAREBACK2",
+      "reward": "50 Trait Rerolls",
+      "addedDate": "2025-12-26"
+    },
+    {
+      "code": "WEAREBACK3",
+      "reward": "300 Pet Coins",
+      "addedDate": "2025-12-26"
+    },
+    {
+      "code": "WEAREBACK4",
+      "reward": "1,000 Payload",
+      "addedDate": "2025-12-26"
+    },
+    {
+      "code": "ALMOSTCHRISTMASEVE",
+      "reward": "60 Lucky Weapon Spins",
+      "addedDate": "2025-12-24"
+    },
+    {
+      "code": "ALMOSTCHRISTMASEVE2",
+      "reward": "60 Trait Rerolls",
+      "addedDate": "2025-12-24"
+    },
+    {
+      "code": "ALMOSTCHRISTMASEVE3",
+      "reward": "60 Lucky Perk Spins",
+      "addedDate": "2025-12-24"
+    },
+    {
+      "code": "ALMOSTCHRISTMASEVE4",
+      "reward": "1,000 Payload",
+      "addedDate": "2025-12-24"
+    },
+    {
       "code": "KRAMPUS",
       "reward": "40 Lucky Weapon Spins",
       "addedDate": "2025-12-21"
@@ -31,26 +86,6 @@
       "addedDate": "2025-12-21"
     },
     {
-      "code": "500KWOAHHH",
-      "reward": "200 Skill Points",
-      "addedDate": "2025-12-19"
-    },
-    {
-      "code": "SRYFORDELAY3",
-      "reward": "150 Trait Rolls",
-      "addedDate": "2025-12-19"
-    },
-    {
-      "code": "SRYFORDELAY2",
-      "reward": "200 Pet Coins",
-      "addedDate": "2025-12-19"
-    },
-    {
-      "code": "SRYFORDELAY1",
-      "reward": "1,500 Payload",
-      "addedDate": "2025-12-19"
-    },
-    {
       "code": "SORRYFORDELAY",
       "reward": "20 Trait Rerolls",
       "addedDate": "2025-12-12"
@@ -64,6 +99,13 @@
       "code": "SORRYFORDELAY2",
       "reward": "50 Traits",
       "addedDate": "2025-12-12"
+    }
+  ],
+  "expiredCodes": [
+    {
+      "code": "250KTHANKS",
+      "reward": "Special Rewards",
+      "addedDate": "2025-12-12"
     },
     {
       "code": "YOUGUYSROCK",
@@ -71,12 +113,25 @@
       "addedDate": "2025-12-12"
     },
     {
-      "code": "250KTHANKS",
-      "reward": "Special Rewards",
-      "addedDate": "2025-12-12"
-    }
-  ],
-  "expiredCodes": [
+      "code": "500KWOAHHH",
+      "reward": "200 Skill Points",
+      "addedDate": "2025-12-19"
+    },
+    {
+      "code": "SRYFORDELAY1",
+      "reward": "1,500 Payload",
+      "addedDate": "2025-12-19"
+    },
+    {
+      "code": "SRYFORDELAY2",
+      "reward": "200 Pet Coins",
+      "addedDate": "2025-12-19"
+    },
+    {
+      "code": "SRYFORDELAY3",
+      "reward": "150 Trait Rolls",
+      "addedDate": "2025-12-19"
+    },
     {
       "code": "200KTHANKS",
       "reward": "35 Lucky Weapon Spins",
