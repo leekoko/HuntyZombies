@@ -1,6 +1,16 @@
 {
   "activeCodes": [
     {
+      "code": "FLOWUPDATE",
+      "reward": "50 Traits",
+      "addedDate": "2026-01-09"
+    },
+    {
+      "code": "FLOWUPDATE2",
+      "reward": "750 Payload Coins",
+      "addedDate": "2026-01-09"
+    },
+    {
       "code": "MERRY",
       "reward": "100 Pet Coins",
       "addedDate": "2025-12-25"
@@ -46,26 +56,6 @@
       "addedDate": "2025-12-26"
     },
     {
-      "code": "ALMOSTCHRISTMASEVE",
-      "reward": "60 Lucky Weapon Spins",
-      "addedDate": "2025-12-24"
-    },
-    {
-      "code": "ALMOSTCHRISTMASEVE2",
-      "reward": "60 Trait Rerolls",
-      "addedDate": "2025-12-24"
-    },
-    {
-      "code": "ALMOSTCHRISTMASEVE3",
-      "reward": "60 Lucky Perk Spins",
-      "addedDate": "2025-12-24"
-    },
-    {
-      "code": "ALMOSTCHRISTMASEVE4",
-      "reward": "1,000 Payload",
-      "addedDate": "2025-12-24"
-    },
-    {
       "code": "KRAMPUS",
       "reward": "40 Lucky Weapon Spins",
       "addedDate": "2025-12-21"
@@ -102,6 +92,26 @@
     }
   ],
   "expiredCodes": [
+    {
+      "code": "ALMOSTCHRISTMASEVE4",
+      "reward": "1,000 Payload",
+      "addedDate": "2025-12-24"
+    },
+    {
+      "code": "ALMOSTCHRISTMASEVE3",
+      "reward": "60 Lucky Perk Spins",
+      "addedDate": "2025-12-24"
+    },
+    {
+      "code": "ALMOSTCHRISTMASEVE2",
+      "reward": "60 Trait Rerolls",
+      "addedDate": "2025-12-24"
+    },
+    {
+      "code": "ALMOSTCHRISTMASEVE",
+      "reward": "60 Lucky Weapon Spins",
+      "addedDate": "2025-12-24"
+    },
     {
       "code": "250KTHANKS",
       "reward": "Special Rewards",
