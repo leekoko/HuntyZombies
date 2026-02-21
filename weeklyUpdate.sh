@@ -4,7 +4,11 @@ export ANTHROPIC_BASE_URL=https://node-hk.sssaicode.com/api
 export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
 export PATH="/usr/local/bin:$PATH"
 
+mkdir -p ~/.ssh
+ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
+
 cd /workspace/HuntyZombies || exit 1
+git remote set-url origin git@github.com:leekoko/HuntyZombies.git
 
 claude -p "帮我执行 hunty-zombies-maintainer skill 更新一下code"   --allowed-tools Bash,Edit,Read,WebSearch,WebFetch,Write
 
