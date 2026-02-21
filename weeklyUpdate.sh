@@ -1,6 +1,6 @@
 #!/bin/bash
-export ANTHROPIC_AUTH_TOKEN=2579a027df191b13a0bd9dcb5754c9b9a75920109bcc1afe816f855647299195
-export ANTHROPIC_BASE_URL=https://claude2.sssaicode.com/api
+export ANTHROPIC_AUTH_TOKEN=sk-sssaicode-ffd0858eb0f80b562cf5b7af603d29167dbe63083d5167beeac8de195be5e4c2
+export ANTHROPIC_BASE_URL=https://node-hk.sssaicode.com/api
 export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
 export PATH="/usr/local/bin:$PATH"
 
