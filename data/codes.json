@@ -1,6 +1,43 @@
 {
   "activeCodes": [
     {
+      "code": "CupidWeapon",
+      "reward": "10 Lucky Weapon Spins",
+      "addedDate": "2026-02-14"
+    },
+    {
+      "code": "CupidValentines",
+      "reward": "10 Lucky Perk Spins",
+      "addedDate": "2026-02-14"
+    },
+    {
+      "code": "DUNGEONDAGGER",
+      "reward": "50 Traits",
+      "addedDate": "2026-02-01"
+    },
+    {
+      "code": "MOREWEAPONSPINS",
+      "reward": "50 Lucky Weapon Spins",
+      "addedDate": "2026-02-01"
+    },
+    {
+      "code": "COYOTE",
+      "reward": "50 Lucky Weapon Spins",
+      "addedDate": "2026-02-01"
+    },
+    {
+      "code": "COYOTE2",
+      "reward": "50 Lucky Perk Spins",
+      "addedDate": "2026-02-01"
+    },
+    {
+      "code": "HAPPYSUNDAY",
+      "reward": "50 Traits",
+      "addedDate": "2026-02-01"
+    }
+  ],
+  "expiredCodes": [
+    {
       "code": "FLOWUPDATE",
       "reward": "50 Traits",
       "addedDate": "2026-01-09"
@@ -89,9 +126,7 @@
       "code": "SORRYFORDELAY2",
       "reward": "50 Traits",
       "addedDate": "2025-12-12"
-    }
-  ],
-  "expiredCodes": [
+    },
     {
       "code": "ALMOSTCHRISTMASEVE4",
       "reward": "1,000 Payload",
